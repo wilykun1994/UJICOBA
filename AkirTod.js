@@ -1915,7 +1915,7 @@ case 'thunder':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Akira Botz`)
                     sticWait(from)
                     ini_txt = args.join(" ")
-                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=HENTONGERS&text=${ini_txt}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=KONTOLODON&text=${ini_txt}`).then((gambar) => {
                     KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli})
                     })
                     break
@@ -1928,7 +1928,7 @@ case 'pubg':
                     sticWait(from)
                     txt1 = args[0]
                     txt2 = args[1]
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=HENTONGERS&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=KONTOLODON&text1=${txt1}&text2=${txt2}`).then((gambar) => {
                         KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli})
                     })
                     break
@@ -1965,7 +1965,7 @@ case 'freefire':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Akira Botz`)
                     sticWait(from)
                     txt1 = args[0]
-                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=HENTONGERS&text=${txt1}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=KONTOLODON&text=${txt1}`).then((gambar) => {
                         KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli}) 
                     })
                     break
@@ -1997,7 +1997,7 @@ case 'carvedwood':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Akira Botz`)
                     sticWait(from)
                     txt1 = args[0]
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=HENTONGERS&text=${txt1}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=KONTOLODON&text=${txt1}`).then((gambar) => {
                         KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli})
                     })
                     break
@@ -2016,7 +2016,7 @@ case 'wallgravity':
                     sticWait(from)
                     txt1 = args[0]
                     txt2 = args[1]
-                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=HENTONGERS&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=KONTOLODON&text1=${txt1}&text2=${txt2}`).then((gambar) => {
                         KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli})
                     })
                     break
@@ -2089,7 +2089,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
                     if (args.length == 0) return reply(`Example: ${prefix + command} KirBotz`)
                     sticWait(from)
                     txt1 = args[0]
-                    getBuffer(`https://api.lolhuman.xyz/api/photooxy3/bannerlol?apikey=HENTONGERS&text=${txt1}`).then((gambar) => {
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy3/bannerlol?apikey=KONTOLODON&text=${txt1}`).then((gambar) => {
                         KirBotz.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `❤️ HENTONGERS-BOT ❤️`, quoted : fakeTroli})
                     })
                     break
